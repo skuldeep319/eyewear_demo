@@ -1,0 +1,879 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+.header {
+    margin-top: 50px;
+}
+
+
+
+nav ul {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 30px;
+
+}
+
+.freeze a{
+    color: orangered;
+    text-decoration: none;
+}
+
+nav ul li a{
+    color: grey;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: orangered;
+    text-decoration: none;
+}
+
+.toggle {
+   
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0px;
+    display: none;
+}
+
+.help ul li {
+    display: inline-block;
+
+}
+
+.help_container {
+    padding: 0% 10%;
+}
+
+.help_container h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: lightgrey;
+    font-family: 'Inconsolata', monospace;
+    height: 30px;
+}
+
+.help_container li {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: lightgrey;
+    font-family: 'Inconsolata', monospace;
+}
+
+.help_container i {
+    color: orangered;
+}
+
+.header img{
+    padding: 0px 90px;
+}
+
+.cart_container {
+    float: right;
+    padding: 0px 20px;
+}
+
+.cart_container button {
+    border: 1px solid lightgray;
+    background-color: white;
+    margin: 0px 20px;
+}
+
+.cart_container button:focus {
+    outline: none;
+}
+
+.header_divider {
+    height: 1px;
+    background-color: lightgrey;
+    margin-top: 20px;
+}
+
+.row {
+    margin: 0px;
+}
+
+.navbar ul {
+    padding: 0% 22%;
+}
+
+.navbar ul li {
+    text-transform: uppercase;
+    padding: 0px 20px;
+    font-size: 13px;
+
+}
+
+.activeone span {
+    color: orangered;
+}
+
+.activetwo a span:hover {
+    color: orangered;
+}
+
+.activethree span:hover {
+    color: orangered;
+}
+
+.activefour span:hover {
+    color: orangered;
+}
+
+.activefive span:hover {
+    color: orangered;
+}
+
+.activesix span:hover {
+    color: orangered;
+}
+
+.collapse {
+    width: 100%;
+}
+
+
+.bgimageone {
+    margin-bottom: 100px;
+    
+}
+
+.slider_full_item .text-center a{
+    margin-top: 30px;
+    border: 2px solid #ff4e00;
+    background: none;
+    padding: 15px 50px;
+    
+}
+
+.slider_full_item .text-center a:hover{
+    background-image: repeating-linear-gradient(to right, orangered 10%, white 20%);
+    border: none;
+    
+}
+
+
+.new_arrivals {
+    margin-bottom: 50px;
+
+}
+
+.new_arrivals h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    color: lightblue;
+    font-weight: bold;
+    font-family: 'Inconsolata', monospace;
+    width: 100%;
+    padding-bottom: 50px;
+
+}
+
+.border {
+    padding: 5px 5px;
+}
+
+.card {
+    border: 1px solid lightgray;
+    padding-bottom: 20px;
+    height: 350px;
+    padding: 0px 5px;
+}
+
+.card .glassimg {
+   
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+
+.card h4 {
+    color: lightgray;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.card p {
+    padding-bottom: 15px;
+    color: orangered;
+    float: left;
+    line-height: 30px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.card a {
+    float: right;
+    background-color: lightslategrey;
+    border: none;
+}
+
+.card a:hover, .card a:focus, .card a:active{
+    background-color: lightslategrey !important;
+    border: none !important;
+}
+
+.flash_sale {
+    height: 400px;
+    background-image: url(summer_background_image/people-2564024_1920.jpg);
+    background-size: cover;
+    position: relative;
+   
+
+}
+
+.count {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.flash_sale h1 {
+    font-size: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 30px;
+    font-family: 'Inconsolata', monospace;
+    background-color: skyblue;
+    margin-top: 100px;
+}
+
+.flash_sale .count_down div {
+    display: inline-block;
+}
+
+.count_down h2 {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    padding: 30px 30px;
+    text-align: center;
+    display: inline-block;
+
+
+}
+
+.count_down p {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Inconsolata', monospace;
+
+}
+
+.count_down {
+    text-align: center;
+}
+
+.product_slider {
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+.col-item {
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    background: #FFF;
+    height: 390px;
+}
+
+.col-item .photo .glassimgpro {
+    margin-left: 190px;
+    
+}
+
+.col-item .photo .proimg{
+   padding: 30px 80px;
+}
+
+.col-item .info {
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 1px;
+}
+
+.col-item:hover .info {
+    background-color: #F5F5DC;
+}
+
+.col-item .price {
+    /*width: 50%;*/
+    float: left;
+    margin-top: 5px;
+}
+
+.col-item .price h5 {
+    line-height: 20px;
+    margin: 0;
+}
+
+.price-text-color {
+    color: #219FD1;
+}
+
+.col-item .info .rating {
+    color: #777;
+}
+
+.col-item .rating {
+    /*width: 50%;*/
+    float: left;
+    font-size: 17px;
+    text-align: right;
+    line-height: 52px;
+    margin-bottom: 10px;
+    height: 52px;
+}
+
+
+
+.clear-left {
+    clear: left;
+}
+
+.col-item .separator p {
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.col-item .separator p i {
+    margin-right: 5px;
+}
+
+.col-item .btn-add {
+    width: 50%;
+    float: left;
+}
+
+.col-item .btn-add {
+    border-right: 1px solid #E1E1E1;
+}
+
+.col-item .btn-details {
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}
+
+.controls {
+    margin: 20px 572px;
+
+}
+
+.controls a {
+    background: lightslategrey;
+    border: none;
+}
+
+.controls a:hover,
+.controls a:focus,
+.controls a:active {
+    background: lightslategrey !important;
+    border: none !important;
+
+}
+
+[data-slide="prev"] {
+    margin-right: 10px;
+}
+
+.carbtn {
+    
+    background: lightslategrey;
+    border: none;
+}
+
+.carbtn:hover,
+.carbtn:focus,
+.carbtn:active {
+    background: lightslategrey !important;
+    border: none !important;
+}
+
+
+.testimonal_container {
+    width: 100%;
+    background: #F0F0F0;
+}
+
+#myCarousel {
+
+    padding: 0px 150px;
+}
+
+.carousel-indicators li {
+    background: orangered;
+    width: 20px;
+    transition: all 0.5s ease-in;
+}
+
+.testimonal_container h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: black;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-shadow: 1px 1px 1px #000000;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+
+.carousel-inner img {
+    margin-bottom: 20px;
+
+}
+
+.carousel-inner h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 30px;
+    font-family: 'Inconsolata', monospace;
+
+}
+
+.carousel-inner h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: orangered;
+    margin-bottom: 30px;
+    font-family: 'Inconsolata', monospace;
+    text-transform: capitalize;
+}
+
+.carousel-inner p {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 50px;
+    color: grey;
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 1px;
+}
+
+#myCarousel a {
+    background: none;
+    color: black;
+}
+
+#myCarousel i {
+    padding: 100px 0px;
+}
+
+.editors_container {
+    padding-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.editors_pick img {
+    width: 100%;
+    height: 280px;
+
+}
+
+.services {
+    margin-bottom: 50px;
+}
+
+.services i {
+    font-size: 35px;
+    color: orangered;
+    padding-bottom: 50px;
+}
+
+.services h1 {
+    font-size: 23px;
+    font-family: 'Inconsolata', monospace;
+    text-transform: capitalize;
+    padding-bottom: 50px;
+}
+
+.services p {
+    font-size: 16px;
+    font-family: 'Inconsolata', monospace;
+    text-transform: capitalize;
+    color: darkgrey;
+    padding-bottom: 50px;
+}
+
+.services .btn {
+    font-size: 18px;
+    background: none;
+    color: orangered;
+    border: 1px solid orangered;
+    width: 150px;
+    height: 40px;
+    text-transform: capitalize;
+}
+
+.Satisfaction {
+    text-align: center;
+    padding: 0px 70px;
+}
+
+.Shipping {
+    text-align: center;
+    padding: 0px 70px;
+}
+
+.Protection {
+    text-align: center;
+    padding: 0px 70px;
+}
+
+.brand_surity {
+    padding-top: 50px;
+    background: #F0F0F0;
+    margin-bottom: 50px;
+
+}
+
+.icon i {
+    border: 2px solid orangered;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+.icon i:hover {
+    color: orangered;
+}
+
+.brand_surity h1 {
+    font-size: 18px;
+    font-family: 'Inconsolata', monospace;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    font-weight: bold;
+    color: orangered;
+}
+
+.brand_surity p {
+    font-size: 14px;
+    font-family: 'Inconsolata', monospace;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: grey;
+    padding-bottom: 30px;
+
+}
+
+.genuine {
+    text-align: center;
+}
+
+
+.easy {
+    text-align: center;
+}
+
+.cash {
+    text-align: center;
+}
+
+.secure {
+    text-align: center;
+}
+
+.footer {
+    background: #151515;
+
+}
+
+.footer h1 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Inconsolata', monospace;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px dotted grey;
+
+}
+
+
+
+.footer p {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.footer .social_icons i {
+    padding: 0px 15px;
+    font-size: 20px;
+    color: lightblue;
+}
+
+.footer h2 {
+    color: orangered;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: 'Inconsolata', monospace;
+    padding-bottom: 15px;
+}
+
+.footer h3 {
+    color: gray;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: 'Inconsolata', monospace;
+    padding-bottom: 15px;
+}
+
+.list ul li {
+    list-style-type: none;
+    padding: 10px 0px;
+    font-size: 14px;
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.footer input {
+    background: transparent;
+    border: 1px solid grey;
+    width: 215px;
+    height: 30px;
+    float: left;
+    padding: 10px;
+    color: white;
+    border-right: none;
+}
+
+.footer input:focus {
+    outline: none;
+}
+
+.footer .btn1 {
+    font-size: 16px;
+    color: orangered;
+    height: 30px;
+    border: 1px solid grey;
+    background: none;
+    padding: 0px 20px;
+    border-left: none;
+    font-family: 'Inconsolata', monospace;
+}
+
+.footer .btn1:focus {
+    outline: none;
+}
+
+.footer_underline {
+    height: 1px;
+    width: 100%;
+    background: grey;
+    margin-top: 20px;
+}
+
+.footer h6 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 14px;
+    color: grey;
+    padding-bottom: 20px;
+    font-family: 'Inconsolata', monospace;
+}
+
+@media (max-width:768px) {
+    .toggle {
+        display: block;
+    }
+    nav ul {
+        width: 100%;
+        display: none;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 10px 0px;
+
+    }
+
+    .active {
+        display: block;
+    }
+
+}
+
+
+
